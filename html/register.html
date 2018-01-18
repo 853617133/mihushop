@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<!--
+        	作者：david68686@qq.com
+        	时间：2018-01-09
+        	描述：top
+        -->
+		<div id="top">
+			<h2><span></span>欢迎来到服装供销网 <a href="login.html">请登录</a> <a href="register.html">免费注册</a></h2>
+			<ul>
+				<li><span></span><a href="../index.html">平台首页</a></li>
+				<li><span></span><a href="">供应商入驻</a></li>
+				<li><span></span><a href="">代理商入驻</a></li>
+				<li><span></span><a href="">我的供销</a></li>
+				<li><span></span><a href="">采购车<span id="changeNum">0</span>件</a></li>
+				<li><span></span><a href="">货源推荐</a></li>
+				<li><span></span><a href="">平台微信</a></li>
+				<li><span></span><a href="">客服中心</a></li>
+			</ul>
+		</div>
+		<!--
+        	作者：david68686@qq.com
+        	时间：2018-01-12
+        	描述：标题
+        -->
+        <div id="header">
+        	<h2>
+        		<img src="../img/logo.jpg"/>
+        	</h2>
+        	<div id="localLink">
+        		<ul>
+        			<li><a href="javascript:;">新手帮助</a></li>
+        			<li><a href="javascript:;">了解服装供销网代理商</a></li>
+        			<li><a href="javascript:;">了解服装供应网供应商</a></li>
+        			<li><a href="javascript:;">入驻服装供销网</a></li>
+        		</ul>
+        		<p>如注册遇到问题请拨打：<span>0592-6019-321 </span> 或者直接前往客服中心联系在线客服</p>
+        	</div>
+        </div>
+        <div id="formBox">
+        	<h3>
+        		<a href="javascript:;">已经注册？</a>
+        		<input type="button" id="Gotologin" value="前往登录" />
+        	</h3>
+        	<h2><span>用户注册</span>(小提示：如果您的手机号已经注册过代销商又想注册供应商，在号码前补零即可)</h2>
+        	<section>
+	        	<div id="jian"></div>
+	        	<div id="jieduantu">
+	        		<p></p>
+	        	</div>
+	        	<div id="formDiv">
+	        		<ul id="formUl">
+		        		<li><label class="qian1" for="phonenum">手机号码：</label><input type="text" name="" id="phonenum" placeholder="请输入手机号码(可用于登录和找回密码等)"/><span><i></i><b>手机号码格式错误</b></span></li>
+		        		<li><label class="qian2" for="phonenum">验证码：</label><input type="text" name="" id="code" placeholder="请输入右侧验证码"/><p><input type="button" name="refresh" id="refresh" value="" /></p><span><i></i><b>请输入正确的验证码</b></span></li>
+		        		<li><label class="qian3" for="phonenum">校验码：</label><input type="text" name="" id="jiaoYan" placeholder="请输入手机校验码"/><input type="button" name="" id="sendToPhone" value="发送到手机"/><span><i></i><b>请输入正确的手机验证码</b></span></li>
+		        		<li>注：一个手机号一天只能获取两次校验码，收到的任一校验码当天都有效</li>
+		        		<li><input type="checkbox" name="" id="inpDg"/><b>我已阅读并同意<a href="javascript:;">《服装供销网用户注册协议》</a></b></li>
+		        		<li><input type="submit" id="sub" value="下一步" /></li>
+		        	</ul>
+		        	<ul id="formUl2">
+		        		<li><label class="qian21" for="phonenum">密码：</label><input type="text" name="" id="password1" placeholder="6-20位字符,建议由字母,数字和符号多种组合"/><span><i></i><b>密码至少6位</b></span></li>
+		        		<li><label class="qian22" for="phonenum">确认密码：</label><input type="text" name="" id="password2" placeholder="6-20位字符,建议由字母,数字和符号多种组合"/><span><i></i><b>两次密码不匹配</b></span></li>
+		        		<li><input type="submit" id="sub21" value="下一步" /></li>
+		        	</ul>
+		        	<ul id="formUl3">
+		        		<li><label class="qian31" for="phonenum">用户名：</label><input type="text" name="" id="userName" placeholder="用户名最多20个字符(可用于登录,注册后不可修改)"/><span><i></i><b>用户名格式不正确</b></span></li>
+		        		<li><label class="qian32" for="phonenum">昵称：</label><input type="text" name="" id="niCheng" placeholder="昵称最多15个字符(在服装供销网对外显示的称呼,可修改)"/><span><i></i><b>昵称格式不正确</b></span></li>
+		        		<li><label class="qian32" for="phonenum">e-mail：</label><input type="text" name="" id="e-mail" placeholder="请输入常用邮箱(用于登录和找回密码等)"/><span><i></i><b>邮箱格式不正确</b></span></li>
+		        		<li><input type="submit" id="sub31" value="完成注册" /></li>
+		        	</ul>
+		        	<ul id="formUl4">
+		        		<li><i id="dha"></i><p>恭喜您注册成功</p></li>
+		        		<li>注册手机号码：<i></i>账号：<i></i>昵称：<i></i></li>
+		        		<li>
+		        			<input type="button" id="xinshou" value="新手必看" />
+		        			<input type="button" name="daixiao" id="daixiao" value="了解代销商" />
+		        			<input type="button" name="gongying" id="gongying" value="了解供应商" />
+		        			<input type="button" name="ruzhu" id="ruzhu" value="入驻服装供销网" />
+		        		</li>
+		        	</ul>
+	        	</div>
+	        	
+        	</section>
+        </div>
+	</body>
+	<script type="text/javascript" src="../js/require.js" defer async="true" data-main = "../js/main-register"></script>
+</html>

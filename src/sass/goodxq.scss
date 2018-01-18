@@ -1,0 +1,949 @@
+@import "common";
+body{
+    position: relative;
+}
+//top
+#top{ 
+    height: 34px;
+    background: #f5f5f5;
+    line-height:34px;
+    h2{ 
+        font-size: 12px;
+        color: #616161;
+        margin-left: 50px;
+        float: left;
+        span{
+            width: 18px;
+            height: 18px;
+            display: block;
+            float: left;
+            margin-top:8px ;
+            background: url(../img/indexicos.png) no-repeat -1131px -37px;
+        }
+        a{
+            color: #616161;
+            
+        }
+        a:last-child{
+            margin-left: 20px;
+        }
+        a:hover{
+            color: #fe3b68;
+        }
+    }
+    ul{
+        margin-left:150px;
+        float: left;
+        li{
+            height: 20px;
+            float: left;
+            span{
+                width: 20px;
+                height: 20px;
+                display: block;
+                float: left;
+                margin:8px 0 0 10px;
+            }
+            a{
+                color: #616161;
+                font-size: 12px;
+                padding: 0 10px 0 6px;
+                border-right: 1px solid #ccc;
+            }
+            a:hover{
+                color: #fe3b68;
+            }
+            #changeNum{
+                color: #EE2346;
+                font-size: 12px;
+                background: #F5F5F5;
+                float: none;
+                display: inline;
+            }
+        }
+        li:nth-child(1) span{
+            background: url(../img/indexicos.png) no-repeat -1175px -82px;
+        }
+        li:nth-child(2) span{
+            background: url(../img/indexicos.png) no-repeat -1169px -36px;
+        }
+        li:nth-child(3) span{
+            background: url(../img/indexicos.png) no-repeat -1149px -36px;
+        }
+        li:nth-child(4) span{
+            background: url(../img/indexicos.png) no-repeat -1106px -36px;
+        }
+        li:nth-child(5) span{
+            background: url(../img/indexicos.png) no-repeat -1171px -2px;
+        }
+        li:nth-child(6) span{
+            background: url(../img/indexicos.png) no-repeat -1175px -103px;
+        }
+        li:nth-child(7) span{
+            background: url(../img/newindexicos.png) no-repeat -3px -215px;
+        }
+        li:nth-child(8) span{
+            background: url(../img/newindexicos.png) no-repeat -3px -242px;
+        }
+        li:last-child a{
+            border: 0;
+        }
+    }
+}
+//header
+#header{ 
+    height: 102px;
+    background: #fff;
+    padding-top: 32px;
+    h2{ 
+        width: 254px;
+        height: 62px;
+        float: left;
+        margin-left: 45px;
+        background: url(../img/indexicos.png) no-repeat;
+    }
+    div{
+        width: 520px;
+        height: 70px;
+        float: left;
+        margin-left: 120px;
+        div{
+            width: 512px;
+            height: 32px;
+            margin-left: 0px;
+            border: 3px solid #ee2346;
+            p{
+                float: left;
+                width: 58px;
+                position: relative;
+                span{
+                    color: #666;
+                    width: 56px;
+                    height: 30px;
+                    font-size: 12px;
+                    display: block;
+                    line-height: 30px;
+                    text-align: center;
+                    background: #FFFFFF;
+                    border: 1px solid #ccc;
+                }
+                span:last-child{
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    top: 30px;
+                }
+            }
+            input{
+                float: left;
+            }
+            #searchTxt{
+                width: 390px;
+                height: 32px;
+                border: 0;
+            }
+            #searchBtn{
+                width: 64px;
+                height: 32px;
+                border: 0;
+                color: #fff;
+                font-size: 12px;
+                background: url(../img/indexicos.png) no-repeat -357px -1px;
+            }
+        }
+        p{
+            color: #919191;
+            font-size: 12px;
+            float: left;
+            
+            span{
+                margin-right: 8px;
+            }
+        }
+    }
+    section{
+        width: 95px;
+        height: 90px;
+        float: right;
+        margin-right: 20px;
+        background: url(../img/indexicos.png) no-repeat -612px 0px;
+    }
+}
+//导航
+#nav{ 
+    height: 42px;
+    background: #3a3a3a;
+    
+    ul{
+        padding-left:50px ;
+        li{
+            cursor: pointer;
+            float: left;
+            a{
+                display: block;
+                width: 100px;
+                height: 42px;
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                line-height: 42px;
+                
+            }
+            a:hover{
+                background: #dd2b44;
+            }
+            a:nth-child(1){
+                position: relative;
+                span{
+                    display: block;
+                    width: 22px;
+                    height: 10px;
+                    background: url(../img/indexicos.png) no-repeat -1167px -63px;
+                    position: absolute;
+                    top: -4px;
+                    left: 70px;
+                }
+            }
+        }
+    }
+}
+
+//右div
+#div-R{
+    width: 26px;
+    height: 100%;
+    background: #433B38;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    ul{
+        padding-top: 60px;
+        li{
+            position: relative;
+            margin: 30px 0;
+            a{
+                
+                color: #FFFFFF;
+                display: block;
+            }
+            p{
+                position: absolute;
+                a{
+                    display: block;
+                    width: 80px;
+                    height: 20px;
+                    background: #7FFF00;
+                }
+            }
+        }
+        li:nth-child(1){
+            a{
+                width: 26px;
+                height: 26px;
+                background: url(../img/newindexicos.png) no-repeat 0 -178px;
+            }
+            p{
+                position: absolute;
+                top: -1px;
+                right: 32px;
+                display: none;
+                a{
+                    width: 100px;
+                    height: 30px;
+                    background: #3A3A3A;
+                    line-height: 30px;
+                    text-align: center;
+                    position: relative;
+                    b{
+                        color: #3A3A3A;
+                        font-size: 22px;
+                        position: absolute;
+                        top: 0px;
+                        right: -7px;
+                    }
+                }
+            }
+        }
+        li:nth-child(1):hover p{
+            display: block;
+        }
+        li:nth-child(2){
+            border-top: 1px solid #666666;
+            border-bottom: 1px solid #666666;
+            padding: 20px  0;
+            i{
+                display: block;
+                width: 26px;
+                height: 26px;
+                background: url(../img/newindexicos.png) no-repeat 2px -78px;
+               
+            }
+            a{
+                display: block;
+                width: 26px;
+                height: 68px;
+                font-size: 14px;
+//              background: #00FFFF;
+                text-align: center;
+            }
+            span{
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 12px;
+                display: block;
+                width: 20px;
+                height: 20px;
+                margin: 5px 0 0 3px;
+                border-radius: 10px;
+                background: #EE2346;
+            }
+        }
+        li:nth-child(3){
+            a{
+                width: 26px;
+                height: 26px;
+                background: url(../img/newindexicos.png) no-repeat 2px -111px;
+            }
+            p{
+                display: none;
+                position: absolute;
+                top: -1px;
+                right: 32px;
+                a{
+                    width: 100px;
+                    height: 30px;
+                    background: #3A3A3A;
+                    line-height: 30px;
+                    text-align: center;
+                    position: relative;
+                    b{
+                        color: #3A3A3A;
+                        font-size: 22px;
+                        position: absolute;
+                        top: 0px;
+                        right: -7px;
+                    }
+                }
+            }
+        }
+        li:nth-child(3):hover p{
+            display: block;
+        }  
+        li:nth-child(4){
+            a{
+                width: 26px;
+                height: 26px;
+                background: url(../img/newindexicos.png) no-repeat 2px -44px;
+            }
+            p{
+                display: none;
+                position: absolute;
+                top: -1px;
+                right: 32px;
+                a{
+                    width: 100px;
+                    height: 30px;
+                    background: #3A3A3A;
+                    line-height: 30px;
+                    text-align: center;
+                    position: relative;
+                    b{
+                        color: #3A3A3A;
+                        font-size: 22px;
+                        position: absolute;
+                        top: 0px;
+                        right: -7px;
+                    }
+                }
+            }
+        } 
+        li:nth-child(4):hover p{
+            display: block;
+        }
+        li:nth-child(5){
+            a{
+                width: 26px;
+                height: 26px;
+                background: url(../img/newindexicos.png) no-repeat 0 -148px;
+            }
+            p{
+                display: none;
+                position: absolute;
+                top: -1px;
+                right: 32px;
+                a{
+                    width: 100px;
+                    height: 30px;
+                    background: #3A3A3A;
+                    line-height: 30px;
+                    text-align: center;
+                    position: relative;
+                    b{
+                        color: #3A3A3A;
+                        font-size: 22px;
+                        position: absolute;
+                        top: 0px;
+                        right: -7px;
+                    }
+                }
+            }
+        }
+        li:nth-child(5):hover p{
+            display: block;
+        }
+        li:nth-child(6){
+            position: relative;
+            width: 26px;
+            height: 26px;
+            background: url(../img/newindexicos.png) no-repeat 0px -270px;
+            img{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                display: none;
+                top: 10px;
+                right: 40px;
+            }
+        }
+        li:nth-child(6):hover img{
+            display: block;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+#con{
+//  background: pink;
+    overflow: hidden;
+    padding-top: 15px;
+    section:first-child{
+        float: left;
+        width: 200px;
+//      background: #EE82EE;
+        margin-left: 40px;
+        .GYSdangan{
+            border: 1px solid #cac9c9;
+            border-top: 3px solid #DD465E;
+            .GYSdanganup{
+                border-bottom: 1px solid #dedede;
+                padding: 10px 8px 10px 8px;
+                h2{
+                    color: #DD465E;
+                }
+                h3{
+                    font-size: 12px;
+                    margin-top: 15px;
+                }
+                h4{
+                    margin-top: 5px;
+                    width: 110px;
+                    height: 20px;
+                    background: url(../img/register/xqing_bg.png) no-repeat -84px 0;
+                }
+                p{
+                    margin-top: 12px;
+                    color: #cac9c9;
+                    font-size: 12px;
+                }
+            }
+            .GYSdangandown{
+                text-align: center;
+                padding: 20px 0;
+                a{
+                    display: block;
+                    
+                }
+                input{
+                    width: 140px;
+                    height: 30px;
+                    margin-top: 15px;
+                    background: #DD465E;
+                    border: 1px solid #d3556a;
+                }
+            }
+        }
+        .zixun{
+            margin-top: 20px;
+            padding: 10px 10px 10px 15px;
+            border: 1px solid #cac9c9;
+            border-top: 3px solid #DD465E;
+            h2{
+                color: #DD465E;
+            }
+            p{
+                margin-top: 10px;
+                overflow: hidden;
+                span{
+                    width: 77px;
+                    height: 18px;
+                    display: block;
+                    float: left;
+                    background: url(../img/register/qq_icon.png) no-repeat;
+                }
+                span:last-child{
+                    margin-left: 7px;
+                    background: url(../img/register/ww.gif) no-repeat 0px -3px;
+                }
+            }
+        }
+        .LXlist{
+            margin-top: 20px;
+            padding: 10px 10px 10px 15px;
+            border: 1px solid #cac9c9;
+            border-top: 3px solid #DD465E;
+            color: #636363;
+            font-size: 12px;
+            h2{
+                color: #DD465E;
+                font-size: 16px;
+            }
+            dl{
+                margin-top: 15px;
+                dt{
+                    width: 167px;
+                    height: 30px;
+                    background: url(../img/register/xqing_bg.png) no-repeat 0 -463px;
+                    cursor: pointer;
+                    text-indent: 10px;
+                    line-height: 30px;
+                    i{
+                        width: 20px;
+                        height: 30px;
+                        display: block;
+                        float: left;
+                        background: url(../img/register/xqing_bg.png) no-repeat 5px -83px;
+                    }
+                }
+                dd{
+                    display: none;
+                    ul{
+                        li{
+                            dl{
+                                margin-top: 10px;
+                                dt{
+                                    padding-left: 15px;
+                                    background: url(../img/register/xqing_bg.jpg) no-repeat 0 -463px;
+                                }
+                                dd{
+                                    display: none;
+                                    margin-top: 5px;
+                                    padding-left: 46px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            
+            
+            
+        }
+    }
+    section:last-child{
+        float: left;
+        margin-left: 15px;
+        width: 960px;
+//      background: pink;
+//      overflow: hidden;
+        h2{
+            margin-bottom: 15px;
+            overflow: hidden;
+            span{
+                color: #666666;
+                font-weight: bold;
+            }
+            span:first-child{
+                float: left;
+            }
+            span:last-child{
+                float: right;
+                font-size: 12px;
+                i{
+                    color: #DD465E;
+                }
+            }
+        }
+        div{
+//          overflow: hidden;
+            .xqUp{
+                //overflow: hidden;
+                width: auto;
+                margin-left: 0px;
+                #SPlb{
+                    height: 380px;
+                    width: 320px;
+                    float: left;
+//                  background: #8A2BE2;
+                    border: 1px solid #666666;
+                    position: relative;
+                    
+                    #top1{
+                        width: 320px;
+                        overflow: hidden;
+                        position: relative;
+                        height: 320px;
+                        li{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            img{
+                                height: 320px;
+                                width: 320px;
+                            }
+                        }
+                        #mark{
+                            width: 320px;
+                            height: 320px;
+                            z-index: 1111;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                        #float_layer{
+                            width: 50px;
+                            height: 50px;
+                            display: none;
+                            border: 1px solid red;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: 2111;
+                        }
+                    }
+                    #bottom1{
+                        height: 66px;
+                        overflow: hidden;
+                        position: relative;
+                        #small_ul{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            li{
+                                float: left;
+                                img{
+                                    height: 50px;
+                                    width: 50px;
+                                    padding: 6px;
+                                }
+                            }
+                        }
+                    }    
+                    #addbig{
+                        width: 320px;
+                        height: 320px;
+//                      border: 1px solid red;
+//                      background: aqua;
+                        position: absolute;
+                        top: 0;
+                        left: 330px;
+                        overflow: hidden;
+//                      display: none;
+                        #addbig_ul{
+                            height: 320px;
+                            overflow: hidden;
+                            li{
+                                overflow: hidden;
+                                height: 320px;
+                                display: none;
+                                position: relative;
+                                img{
+                                    width: 540px;
+                                    height: 540px;
+                                    z-index: 9999;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                }
+                            }
+                        }
+                    }
+                           
+                                
+                }
+                .SPgm{
+                    width: 625px;
+                    height: auto;
+                    float: left;
+                    //overflow: hidden;
+//                  background: #919191;
+                    padding: 10px 0 0 10px;
+                    article{
+                        position: relative;
+                        width: 615px;
+                        height: 86px;
+//                      background: brown;
+                        margin-bottom: 5px;
+                        border: 1px solid #CAC9C9;
+                    }
+                    article:first-child{
+                        display: block;
+                        span:first-child{
+                            background: url(../img/register/pro_detail3.png) no-repeat -110px -247px;
+                            top: -5px;
+                            left: 15px;
+                            position: absolute;
+                            height: 50px;
+                            display: block;
+                            width: 51px;
+                            color: #69452c;
+                            padding-top: 30px;
+                            padding-left: 3px;
+                            font-family: Microsoft YaHei;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        span:nth-child(2){
+                                position: absolute;
+                                margin-left: 100px;
+                                margin-top: 15px;
+                                font-size: 14px;
+                                color: #DD465E;
+                                font-weight: bold;
+                                b{
+                                    font-size: 32px;
+                                    color: #DD465E;
+                                    font-weight: bold;
+                                }
+                                i{
+                                    font-size: 14px;
+                                    color: #919191;
+                                }
+                        }
+                        span:last-child{
+                            background: url(../img/register/pro_detail3.png) no-repeat 0px -399px;
+                            top: 15px;
+                            left: 512px;
+                            position: absolute;
+                            height: 23px;
+                            display: block;
+                            width: 121px;
+                            color: #ffffff;
+                            padding-top: 8px;
+                            padding-left: 20px;
+                            font-family: Microsoft YaHei;
+                            font-size: 13px;
+                            font-weight: bold;
+                        }
+                    }
+                    article:nth-child(2){
+                        height: 50px;
+                        padding: 15px 12px;
+                        border: 0;
+                        span:first-child{
+                            font-size: 12px;
+                            display: block;
+                        }
+                        span:last-child{
+                            
+                            margin-top: 15px;
+                            font-size: 12px;
+                            display: block;
+                        }
+                    }
+                    article:last-child{
+                        height: auto;
+                        padding-bottom: 15px;
+                        p{
+                            color: #696969;
+                            font-size: 12px;
+                            margin-top:18px ;
+                            width: 100%;
+                            overflow: hidden;
+                            i{
+                                float: left;
+                                display: block;
+                                padding: 8px 0 0 15px;
+                            }
+                            a{
+                                color: #34374a;
+                                display: block;
+                                width: 32px;
+                                float: left;
+                                height: 30px;
+                                line-height: 30px;
+                                text-align: center;
+                                border: 1px solid #DD465E;
+                                background: url(../img/register/detail_icon_list.png) no-repeat -67px 17px;
+                            }
+                        }
+                        p:nth-child(3){
+                            #count{
+                                display: block;
+                                width: 30px;
+                                height: 30px;
+                                border: 1px solid #696969;
+                                float: left;
+                                line-height: 30px;
+                                text-align: center;
+                            }
+                            #jjBox{
+                                width: 15px;
+                                height: 30px;
+                                display: block;
+                                float: left;
+                                margin-left: 3px;
+                               
+                                a{
+                                    width: 15px;
+                                    height: 13px;
+                                    display: block;
+                                    border: 1px solid #666666;
+                                    background: url(../img/register/detail_icon_list.png) no-repeat -88px -33px;
+                                }
+                                a:last-of-type{
+                                    margin-top: 2px;
+                                    background: url(../img/register/detail_icon_list.png) no-repeat -88px -61px;
+                                }
+                            }   
+                        }
+                        p:nth-child(4){
+                            input{
+                                width: 136px;
+                                height: 36px;
+                                border: 1px solid #DD465E;
+                                margin-left: 30px;
+                                background: #FFFFFF;
+                            }
+                        }
+                        p:last-child{
+                            padding-left: 16px;
+                            span{
+                                color: #DD2B44;
+                            }
+                        }
+                    }
+                }
+            }
+            .xqDown{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                overflow: hidden;
+                width: auto;
+                h2{
+                    width: 100%;
+                    text-align: left;
+                    margin-bottom: 2px;
+                    span{
+                        float: none;
+                        display: block;
+                        width: 150px;
+                        height: 35px;
+                        background: #DD465E;
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        font-weight: bold;
+                        line-height: 35px;
+                        text-align: center;
+                    }
+                }
+                .bigbox{
+                    width: auto;
+                    padding: 20px 20px;
+                    box-shadow: 1px 1px 3px 3px #CCCCCC;
+                    border: 1px solid #919191;
+                    margin: 3px;
+                    article{
+                        h3{
+                            padding: 0 0 15px 10px;
+                            
+                            border-bottom: 1px solid #CAC9C9;
+                            i{
+                                color: #969696;
+                                font-size: 12px;
+                                
+                            }
+                            b{
+                                color: #414141;
+                                font-size: 12px;
+                            }
+                            
+                            i:last-of-type{
+                                margin-left: 200px;
+                            }
+                        }
+                        p{
+                            margin-top: 25px;
+                            text-align: center;
+                            span{
+                                display: block;
+                                font-size: 12px;
+                                line-height: 20px;
+                            }
+                            span:last-child{
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+                    .imgbox{
+                        
+                        
+                        padding: 50px 70px;
+                       
+                    }
+                }    
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+//平台链接
+#link{
+    height: 194px;
+//  background: violet;
+    padding-top: 40px;
+    border-top: 1px solid #CCCCCC;
+    #link-box{
+        padding-left: 130px;
+        float: left;
+        ul{
+            float: left;
+            margin-right: 120px;
+            li{
+                a{
+                    color: #666666;
+                    font-size: 12px;
+                }
+            }
+            li:first-child{
+                color: #666666;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 15px;
+            }
+            
+        }
+    }
+    #ewm{
+        float: left;
+        margin-left: 90px;
+        h2{
+            color: #666666;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

@@ -1,0 +1,222 @@
+@import "common";
+#top{ 
+    height: 34px;
+    background: #f5f5f5;
+    line-height:34px;
+    h2{ 
+        font-size: 12px;
+        color: #616161;
+        margin-left: 50px;
+        float: left;
+        span{
+            width: 18px;
+            height: 18px;
+            display: block;
+            float: left;
+            margin-top:8px ;
+            background: url(../img/indexicos.png) no-repeat -1131px -37px;
+        }
+        a{
+            color: #616161;
+            
+        }
+        a:last-child{
+            margin-left: 20px;
+        }
+        a:hover{
+            color: #fe3b68;
+        }
+    }
+    ul{
+        margin-left:150px;
+        float: left;
+        li{
+            height: 20px;
+            float: left;
+            span{
+                width: 20px;
+                height: 20px;
+                display: block;
+                float: left;
+                margin:8px 0 0 10px;
+            }
+            a{
+                color: #616161;
+                font-size: 12px;
+                padding: 0 10px 0 6px;
+                border-right: 1px solid #ccc;
+            }
+            a:hover{
+                color: #fe3b68;
+            }
+            #changeNum{
+                color: #EE2346;
+                font-size: 12px;
+                background: #F5F5F5;
+                float: none;
+                display: inline;
+            }
+        }
+        li:nth-child(1) span{
+            background: url(../img/indexicos.png) no-repeat -1175px -82px;
+        }
+        li:nth-child(2) span{
+            background: url(../img/indexicos.png) no-repeat -1169px -36px;
+        }
+        li:nth-child(3) span{
+            background: url(../img/indexicos.png) no-repeat -1149px -36px;
+        }
+        li:nth-child(4) span{
+            background: url(../img/indexicos.png) no-repeat -1106px -36px;
+        }
+        li:nth-child(5) span{
+            background: url(../img/indexicos.png) no-repeat -1171px -2px;
+        }
+        li:nth-child(6) span{
+            background: url(../img/indexicos.png) no-repeat -1175px -103px;
+        }
+        li:nth-child(7) span{
+            background: url(../img/newindexicos.png) no-repeat -3px -215px;
+        }
+        li:nth-child(8) span{
+            background: url(../img/newindexicos.png) no-repeat -3px -242px;
+        }
+        li:last-child a{
+            border: 0;
+        }
+    }
+    
+}
+#header{
+    width: 1195px;
+    height: 100px;
+//  background: #00FFFF;
+    padding: 40px 0 0 50px;
+    
+    h2{
+        width: 472px;
+        height: 85px;
+        background: url(../img/logo.png) no-repeat;
+    }
+}
+#con{
+    height: 500px;
+//  background: #00FFFF;
+    section{
+       
+        float:left;
+    }
+    section:first-child{
+        a{
+            display: block;
+            width: 600px;
+            height: 400px;
+            margin: 18px 0 0 30px;
+            background: url(../img/logoimg.png) no-repeat;
+        }
+    }
+    section:last-child{
+        margin-left: 110px;
+        div{
+            width: 310px;
+//          height: 310px;
+            background: #FFFFFF;
+            border-radius: 5px;
+            margin-top: 18px;
+            box-shadow: 0px 0px 10px 10px #dfdfdf;
+            padding: 28px 60px 42px 60px;
+            h2{
+                font-size: 16px;
+                font-weight: 700;
+                a{
+                    color: #EE2346;
+                    font-size: 14px;
+                    float: right;
+                    margin: 3px 60px 0 0 ;
+                }
+            }
+            p:nth-of-type(1){
+                color: #666666;
+                font-size: 14px;
+                margin-top: 16px;
+                #txtZH{
+                    margin-top: 8px;
+                    width: 260px;
+                    height: 32px;
+                    color: #666666;
+                    font-size: 12px;
+                    background: url(../img/login_icon-1.png) no-repeat 6px 6px;
+                    padding-left: 40px;
+                    border: 1px solid #666666;
+                    border-radius: 3px;
+                }
+            }
+            p:nth-of-type(2){
+                color: #666666;
+                font-size: 14px;
+                margin: 16px 0 10px 0;
+                #txtMM{
+                    margin-top: 8px;
+                    width: 260px;
+                    height: 32px;
+                    color: #666666;
+                    font-size: 12px;
+                    background: url(../img/login_icon-1.png) no-repeat 6px -22px;
+                    padding-left: 40px;
+                    border: 1px solid #666666;
+                    border-radius: 3px;
+                }
+            }
+            p:nth-of-type(3){
+                color: #EE2346;
+                font-size: 12px;
+                display: none;
+            }
+            p:nth-of-type(4){
+                color: #EE2346;
+                font-size: 12px;
+                display: none;
+            }
+            p:nth-of-type(5){
+                margin-top: 10px;
+                #btnLogin{
+                    width: 300px;
+                    height: 32px;
+                    background: #EE2346;
+                    border: 0;
+                    border-radius: 3px;
+                }
+            }
+            p:nth-of-type(6){
+                margin-top: 8px;
+                a{
+                    font-size: 12px;
+                    margin-right: 10px;
+                }
+                a:nth-child(2){
+                    color: #77c60f;
+                }
+            }
+            p:nth-of-type(7){
+                color: #666666;
+                font-size: 12px;
+                background: url(../img/horn.png) no-repeat;
+                padding-left:20px ;
+                margin-top: 20px;
+                a{
+                    color: #77c60f;
+                }
+            }
+        }
+    }
+    
+}
+#copyright{
+    height: 100px;
+//  background: #CCCCCC;
+    text-align: center;
+    p{
+        color: #3A3A3A;
+        font-size: 12px;
+    }
+}

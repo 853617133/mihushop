@@ -1,0 +1,530 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑"; }
+
+ul, ol, li {
+  list-style: none; }
+
+a, u {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: 500; }
+
+b, strong {
+  font-weight: 500; }
+
+em, i {
+  font-style: normal; }
+
+input {
+  outline: none; }
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clerafix {
+  zoom: 1; }
+
+img {
+  border: 0;
+  display: block; }
+
+#top, #header, #nav, #con, #banner, #adsOne, #provider, #adsTwo, #womenWear, #menWear, #adsThree, #childrenWear, #underWear, #bag, #adsFour, #oranment, #shoes, #adsFive, #attestation, #link, #copyright, #bottom, #copyright, #formBox, #content {
+  width: 1245px;
+  margin: 0 auto; }
+
+#top {
+  height: 34px;
+  background: #f5f5f5;
+  line-height: 34px; }
+  #top h2 {
+    font-size: 12px;
+    color: #616161;
+    margin-left: 50px;
+    float: left; }
+    #top h2 span {
+      width: 18px;
+      height: 18px;
+      display: block;
+      float: left;
+      margin-top: 8px;
+      background: url(../img/indexicos.png) no-repeat -1131px -37px; }
+    #top h2 a {
+      color: #616161; }
+    #top h2 a:last-child {
+      margin-left: 20px; }
+    #top h2 a:hover {
+      color: #fe3b68; }
+  #top ul {
+    margin-left: 150px;
+    float: left; }
+    #top ul li {
+      height: 20px;
+      float: left; }
+      #top ul li span {
+        width: 20px;
+        height: 20px;
+        display: block;
+        float: left;
+        margin: 8px 0 0 10px; }
+      #top ul li a {
+        color: #616161;
+        font-size: 12px;
+        padding: 0 10px 0 6px;
+        border-right: 1px solid #ccc; }
+      #top ul li a:hover {
+        color: #fe3b68; }
+      #top ul li #changeNum {
+        color: #EE2346;
+        font-size: 12px;
+        background: #F5F5F5;
+        float: none;
+        display: inline; }
+    #top ul li:nth-child(1) span {
+      background: url(../img/indexicos.png) no-repeat -1175px -82px; }
+    #top ul li:nth-child(2) span {
+      background: url(../img/indexicos.png) no-repeat -1169px -36px; }
+    #top ul li:nth-child(3) span {
+      background: url(../img/indexicos.png) no-repeat -1149px -36px; }
+    #top ul li:nth-child(4) span {
+      background: url(../img/indexicos.png) no-repeat -1106px -36px; }
+    #top ul li:nth-child(5) span {
+      background: url(../img/indexicos.png) no-repeat -1171px -2px; }
+    #top ul li:nth-child(6) span {
+      background: url(../img/indexicos.png) no-repeat -1175px -103px; }
+    #top ul li:nth-child(7) span {
+      background: url(../img/newindexicos.png) no-repeat -3px -215px; }
+    #top ul li:nth-child(8) span {
+      background: url(../img/newindexicos.png) no-repeat -3px -242px; }
+    #top ul li:last-child a {
+      border: 0; }
+
+#header {
+  height: 100px;
+  border-bottom: 5px solid #EE2346;
+  overflow: hidden; }
+  #header h2 {
+    float: left; }
+  #header #localLink {
+    float: right;
+    padding: 30px 20px 0 0; }
+    #header #localLink ul {
+      overflow: hidden; }
+      #header #localLink ul li {
+        float: left; }
+        #header #localLink ul li a {
+          color: #666666;
+          font-size: 12px;
+          padding: 0 7px;
+          border-right: 1px solid #666666; }
+      #header #localLink ul li:first-child a {
+        padding-left: 0; }
+      #header #localLink ul li:last-child a {
+        border: 0; }
+    #header #localLink p {
+      margin-top: 10px;
+      color: #666666;
+      font-size: 12px; }
+      #header #localLink p span {
+        color: #EE2346; }
+
+#formBox {
+  height: 800px;
+  width: 1185px;
+  background: url(../img/bg.jpg) no-repeat center top;
+  padding: 0 30px; }
+  #formBox h3 {
+    text-align: right;
+    padding: 10px 0; }
+    #formBox h3 a {
+      color: #FFFFFF;
+      font-size: 12px; }
+    #formBox h3 input {
+      padding: 10px;
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 3px;
+      background: transparent; }
+  #formBox h2 {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    background: #dd465e; }
+    #formBox h2 span {
+      color: #FFFFFF;
+      font-size: 20px;
+      font-family: "宋体"; }
+  #formBox section {
+    height: 500px;
+    width: auto;
+    background: #FFFFFF; }
+    #formBox section #jian {
+      width: auto;
+      height: 14px;
+      background: url(../img/arr.png) no-repeat center; }
+    #formBox section #jieduantu {
+      height: 69px;
+      width: auto; }
+      #formBox section #jieduantu p {
+        height: 69px;
+        background: url(../img/register/1.jpg) no-repeat center; }
+    #formBox section #formDiv {
+      padding: 60px 0 0 360px; }
+      #formBox section #formDiv #formUl li {
+        margin: 20px 0; }
+      #formBox section #formDiv #formUl li:nth-child(1) {
+        font-size: 12px;
+        overflow: hidden; }
+        #formBox section #formDiv #formUl li:nth-child(1) .qian1 {
+          padding-top: 8px;
+          float: left; }
+        #formBox section #formDiv #formUl li:nth-child(1) #phonenum {
+          margin-left: 8px;
+          float: left;
+          width: 295px;
+          height: 30px;
+          border: 1px solid #666666;
+          padding-left: 15px; }
+        #formBox section #formDiv #formUl li:nth-child(1) span {
+          padding-top: 6px;
+          margin-left: 10px;
+          float: left;
+          color: #dd465e;
+          display: none; }
+          #formBox section #formDiv #formUl li:nth-child(1) span i {
+            float: left;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+          #formBox section #formDiv #formUl li:nth-child(1) span b {
+            float: left;
+            padding-top: 2px; }
+      #formBox section #formDiv #formUl li:nth-child(2) {
+        font-size: 12px;
+        overflow: hidden;
+        padding-left: 12px; }
+        #formBox section #formDiv #formUl li:nth-child(2) .qian2 {
+          float: left;
+          padding-top: 8px; }
+        #formBox section #formDiv #formUl li:nth-child(2) #code {
+          margin-left: 8px;
+          float: left;
+          width: 195px;
+          height: 30px;
+          border: 1px solid #666666;
+          border-right: 0;
+          padding-left: 15px; }
+        #formBox section #formDiv #formUl li:nth-child(2) p {
+          float: left;
+          width: 40px;
+          height: 30px;
+          border: 1px solid #666666;
+          border-left: 0;
+          padding-left: 60px;
+          background: url(../img/register/verify_img.png) no-repeat left; }
+          #formBox section #formDiv #formUl li:nth-child(2) p input {
+            width: 26px;
+            height: 26px;
+            background: url(../img/register/zcbzicos.png) no-repeat -111px -61px;
+            border: 0; }
+        #formBox section #formDiv #formUl li:nth-child(2) span {
+          color: #dd465e;
+          margin-left: 10px;
+          display: none;
+          float: left;
+          padding-top: 6px; }
+          #formBox section #formDiv #formUl li:nth-child(2) span i {
+            float: left;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+          #formBox section #formDiv #formUl li:nth-child(2) span b {
+            float: left;
+            padding-top: 2px; }
+      #formBox section #formDiv #formUl li:nth-child(3) {
+        font-size: 12px;
+        overflow: hidden;
+        padding-left: 12px; }
+        #formBox section #formDiv #formUl li:nth-child(3) .qian3 {
+          float: left;
+          padding-top: 8px; }
+        #formBox section #formDiv #formUl li:nth-child(3) #jiaoYan {
+          margin-left: 8px;
+          float: left;
+          width: 185px;
+          height: 30px;
+          border: 1px solid #666666;
+          padding-left: 15px; }
+        #formBox section #formDiv #formUl li:nth-child(3) #sendToPhone {
+          margin-left: 8px;
+          float: left;
+          width: 100px;
+          height: 32px;
+          border: 1px solid #CCCCCC;
+          border-radius: 8px;
+          background: #dd465e; }
+        #formBox section #formDiv #formUl li:nth-child(3) span {
+          color: #dd465e;
+          margin-left: 10px;
+          display: none;
+          float: left;
+          padding-top: 1px;
+          overflow: hidden;
+          padding-top: 6px; }
+          #formBox section #formDiv #formUl li:nth-child(3) span i {
+            float: left;
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+          #formBox section #formDiv #formUl li:nth-child(3) span b {
+            float: left;
+            padding-top: 2px; }
+      #formBox section #formDiv #formUl li:nth-child(4) {
+        padding-left: 68px;
+        font-size: 12px;
+        color: #dd465e; }
+      #formBox section #formDiv #formUl li:nth-child(5) {
+        padding-left: 68px;
+        font-size: 12px;
+        overflow: hidden; }
+        #formBox section #formDiv #formUl li:nth-child(5) #inpDg {
+          float: left;
+          padding-top: 2px; }
+        #formBox section #formDiv #formUl li:nth-child(5) b {
+          float: left;
+          margin-left: 5px; }
+          #formBox section #formDiv #formUl li:nth-child(5) b a {
+            color: #000000;
+            text-decoration: underline; }
+      #formBox section #formDiv #formUl li:nth-child(6) {
+        padding-left: 60px; }
+        #formBox section #formDiv #formUl li:nth-child(6) input {
+          width: 300px;
+          height: 42px;
+          background: #dd465e;
+          border-radius: 8px;
+          border: 0; }
+      #formBox section #formDiv #formUl2 {
+        display: none; }
+        #formBox section #formDiv #formUl2 li {
+          margin: 20px 0; }
+        #formBox section #formDiv #formUl2 li:nth-child(1) {
+          font-size: 12px;
+          overflow: hidden; }
+          #formBox section #formDiv #formUl2 li:nth-child(1) .qian21 {
+            padding-top: 8px;
+            float: left;
+            margin-left: 24px; }
+          #formBox section #formDiv #formUl2 li:nth-child(1) #password1 {
+            margin-left: 8px;
+            float: left;
+            width: 295px;
+            height: 30px;
+            border: 1px solid #666666;
+            padding-left: 15px; }
+          #formBox section #formDiv #formUl2 li:nth-child(1) span {
+            padding-top: 6px;
+            margin-left: 10px;
+            float: left;
+            color: #dd465e;
+            display: none; }
+            #formBox section #formDiv #formUl2 li:nth-child(1) span i {
+              float: left;
+              display: block;
+              width: 20px;
+              height: 20px;
+              background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+            #formBox section #formDiv #formUl2 li:nth-child(1) span b {
+              float: left;
+              padding-top: 2px; }
+        #formBox section #formDiv #formUl2 li:nth-child(2) {
+          font-size: 12px;
+          overflow: hidden; }
+          #formBox section #formDiv #formUl2 li:nth-child(2) .qian22 {
+            padding-top: 8px;
+            float: left; }
+          #formBox section #formDiv #formUl2 li:nth-child(2) #password2 {
+            margin-left: 8px;
+            float: left;
+            width: 295px;
+            height: 30px;
+            border: 1px solid #666666;
+            padding-left: 15px; }
+          #formBox section #formDiv #formUl2 li:nth-child(2) span {
+            padding-top: 6px;
+            margin-left: 10px;
+            float: left;
+            color: #dd465e;
+            display: none; }
+            #formBox section #formDiv #formUl2 li:nth-child(2) span i {
+              float: left;
+              display: block;
+              width: 20px;
+              height: 20px;
+              background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+            #formBox section #formDiv #formUl2 li:nth-child(2) span b {
+              float: left;
+              padding-top: 2px; }
+        #formBox section #formDiv #formUl2 li:nth-child(3) {
+          padding-left: 60px; }
+          #formBox section #formDiv #formUl2 li:nth-child(3) #sub21 {
+            width: 300px;
+            height: 42px;
+            background: #dd465e;
+            border-radius: 8px;
+            border: 0; }
+      #formBox section #formDiv #formUl3 {
+        display: none; }
+        #formBox section #formDiv #formUl3 li {
+          margin: 20px 0; }
+        #formBox section #formDiv #formUl3 li:nth-child(1) {
+          font-size: 12px;
+          overflow: hidden; }
+          #formBox section #formDiv #formUl3 li:nth-child(1) .qian31 {
+            padding-top: 8px;
+            float: left;
+            margin-left: 24px; }
+          #formBox section #formDiv #formUl3 li:nth-child(1) #userName {
+            margin-left: 8px;
+            float: left;
+            width: 295px;
+            height: 30px;
+            border: 1px solid #666666;
+            padding-left: 15px; }
+          #formBox section #formDiv #formUl3 li:nth-child(1) span {
+            padding-top: 6px;
+            margin-left: 10px;
+            float: left;
+            color: #dd465e;
+            display: none; }
+            #formBox section #formDiv #formUl3 li:nth-child(1) span i {
+              float: left;
+              display: block;
+              width: 20px;
+              height: 20px;
+              background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+            #formBox section #formDiv #formUl3 li:nth-child(1) span b {
+              float: left;
+              padding-top: 2px; }
+        #formBox section #formDiv #formUl3 li:nth-child(2) {
+          font-size: 12px;
+          overflow: hidden;
+          padding-left: 36px; }
+          #formBox section #formDiv #formUl3 li:nth-child(2) .qian32 {
+            padding-top: 8px;
+            float: left; }
+          #formBox section #formDiv #formUl3 li:nth-child(2) #niCheng {
+            margin-left: 8px;
+            float: left;
+            width: 295px;
+            height: 30px;
+            border: 1px solid #666666;
+            padding-left: 15px; }
+          #formBox section #formDiv #formUl3 li:nth-child(2) span {
+            padding-top: 6px;
+            margin-left: 10px;
+            float: left;
+            color: #dd465e;
+            display: none; }
+            #formBox section #formDiv #formUl3 li:nth-child(2) span i {
+              float: left;
+              display: block;
+              width: 20px;
+              height: 20px;
+              background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+            #formBox section #formDiv #formUl3 li:nth-child(2) span b {
+              float: left;
+              padding-top: 2px; }
+        #formBox section #formDiv #formUl3 li:nth-child(3) {
+          font-size: 12px;
+          overflow: hidden;
+          padding-left: 24px; }
+          #formBox section #formDiv #formUl3 li:nth-child(3) .qian32 {
+            padding-top: 8px;
+            float: left; }
+          #formBox section #formDiv #formUl3 li:nth-child(3) #e-mail {
+            margin-left: 8px;
+            float: left;
+            width: 295px;
+            height: 30px;
+            border: 1px solid #666666;
+            padding-left: 15px; }
+          #formBox section #formDiv #formUl3 li:nth-child(3) span {
+            padding-top: 6px;
+            margin-left: 10px;
+            float: left;
+            color: #dd465e;
+            display: none; }
+            #formBox section #formDiv #formUl3 li:nth-child(3) span i {
+              float: left;
+              display: block;
+              width: 20px;
+              height: 20px;
+              background: url(../img/register/zcbzicos.png) no-repeat -164px -268px; }
+            #formBox section #formDiv #formUl3 li:nth-child(3) span b {
+              float: left;
+              padding-top: 2px; }
+        #formBox section #formDiv #formUl3 li:nth-child(4) {
+          padding-left: 60px; }
+          #formBox section #formDiv #formUl3 li:nth-child(4) #sub31 {
+            width: 300px;
+            height: 42px;
+            background: #dd465e;
+            border-radius: 8px;
+            border: 0; }
+      #formBox section #formDiv #formUl4 {
+        position: relative;
+        display: none; }
+        #formBox section #formDiv #formUl4 li:nth-child(1) {
+          font-size: 20px;
+          overflow: hidden;
+          margin-top: 20px;
+          padding-left: 80px; }
+          #formBox section #formDiv #formUl4 li:nth-child(1) #dha {
+            width: 29px;
+            height: 24px;
+            display: block;
+            background: url(../img/register/yes.png) no-repeat;
+            float: left;
+            margin-right: 65px; }
+        #formBox section #formDiv #formUl4 li:nth-child(2) {
+          font-size: 12px;
+          overflow: hidden;
+          padding-left: 70px;
+          margin-top: 30px; }
+          #formBox section #formDiv #formUl4 li:nth-child(2) i {
+            font-size: 12px;
+            margin-right: 8px;
+            color: #DD465E; }
+        #formBox section #formDiv #formUl4 li:nth-child(3) {
+          margin-top: 30px;
+          overflow: hidden;
+          padding-left: 0px;
+          position: absolute;
+          top: 90px;
+          left: -80px; }
+          #formBox section #formDiv #formUl4 li:nth-child(3) #xinshou, #formBox section #formDiv #formUl4 li:nth-child(3) #daixiao, #formBox section #formDiv #formUl4 li:nth-child(3) #gongying, #formBox section #formDiv #formUl4 li:nth-child(3) #ruzhu {
+            width: 135px;
+            height: 36px;
+            background: #DD465E;
+            float: left;
+            border-radius: 5px;
+            border: 0;
+            margin: 0 15px;
+            font-size: 18px;
+            color: #FFFFFF; }

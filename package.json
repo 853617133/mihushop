@@ -1,0 +1,28 @@
+{
+  "name": "mihushop",
+  "version": "1.0.0",
+  "description": "\"服装供销网\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/853617133/mihushop.git"
+  },
+  "author": "zdx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/853617133/mihushop/issues"
+  },
+  "homepage": "https://github.com/853617133/mihushop#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
